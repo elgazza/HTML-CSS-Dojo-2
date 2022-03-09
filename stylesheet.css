@@ -1,0 +1,237 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+/* Kode dibawah ini untuk bagian header */
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.pembungkus {
+  width: 1170px;
+  margin: auto;
+}
+
+.header-left {
+  float: left;
+  padding-top: 20px;
+}
+
+.header-left img {
+  width: 124px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.5s;
+}
+
+.header-right a {
+  padding-right: 25px;
+  padding-left: 25px;
+  line-height: 65px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Kode untuk bagian Pendahuluan dan button */
+.container {
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  color: white;
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+.pendahuluan {
+  width: 1170px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pendahuluan h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+.pendahuluan p {
+  margin-top: 3px;
+  opacity: 0.7;
+}
+
+/* Kode untuk bagian button */
+.signup {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 12px 24px;
+  opacity: 0.8;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.email {
+  background-color: #239b76;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+/* Kode dibawah ini untuk bagian isi konten */
+.main-konten {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  height: 420px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.container-isi {
+  width: 1170px;
+  margin: auto;
+  
+}
+
+.container-isi h2 {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5f5d60;
+}
+
+.isi {
+  width: 25%;
+  float: left;
+}
+
+.isi p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.kotak {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.kotak p {
+  position: absolute;
+  top: 89px;
+  width: 100%;
+}
+
+p.desc {
+  color: #b3aeb5;
+  font-size: 15px;
+}
+
+/* Kode dibawah ini untuk bagian button "start learning" */
+.container-button {
+  width: 1170px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.heading-button {
+  margin-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading-button h2 {
+  font-weight: normal;
+}
+
+.start-button  {
+  background-color: #5dca88;
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 4px;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.start-button p {
+  display: inline;
+}
+
+.start-button:hover {
+  opacity: 1;
+}
+
+.start-button:active {
+ position: relative;
+ box-shadow: none;
+ top: 7px;
+}
+
+/* Kode dibawah ini untuk bagian Footer */
+footer {
+  width: 1170px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.footer-logo img {
+  width: 124px;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #b3aeb5;
+}
