@@ -177,13 +177,16 @@ p.desc {
 }
 
 /* Kode dibawah ini untuk bagian button "start learning" */
+.pembungkus-button {
+  border-bottom: 1px solid #eee;
+}
+
 .container-button {
   width: 1170px;
   padding-top: 60px;
   padding-bottom: 80px;
   margin: auto;
   text-align: center;
-  border-bottom: 1px solid #eee;
 }
 
 .heading-button {
